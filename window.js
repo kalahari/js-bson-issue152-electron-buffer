@@ -1,6 +1,5 @@
 "use strict";
 var util = require("util");
-var $ = require("jquery");
 var mongodb = require("mongodb");
 function write(text) { window.document.getElementById("out").innerHTML += text + "\n"; }
 window.document.addEventListener("DOMContentLoaded", function() {
